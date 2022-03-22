@@ -22,7 +22,7 @@ The City1M-full consists of 6 zip files, named Images_x.zip, x=2,3,4,5,6. For ex
 * 'pCount2' is the number of member. (this only used for creating datraset, maybe not useful for you.)
 * 'cam1' is the camera id.
 * '00000001' is the index. (it also make no sense for you.)
-* 'day' is a coarse time label (totally two labels, 'day' or 'night').
+* 'day' is a coarse time label (totally two options, 'day' or 'night').
 
 We provide two protocols as follows:
 * Procotol@1 = train_part1.txt + query_part1.txt + gallery_part1.txt
