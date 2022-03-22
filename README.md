@@ -59,4 +59,7 @@ We also provided the pedestrian 3D models used in the City1M. We produced 45000 
 ## Dataset Applcation
 If you are interested in our dataset, please feel free to fill in the application form (PDF) and send it to email zhangq48@mail2.sysu.edu.cn, and we will reply to you as soon as possible.
 
+If our work is helpful to you, please kindly citation:
+
+
 
