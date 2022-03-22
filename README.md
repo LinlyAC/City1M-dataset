@@ -39,9 +39,16 @@ Each line is split by ' ', the first item is the image name, and the following i
 * 1.5166 is depth between the camera and the first member.
 
 ### City1M-lite
+Considering that it may be difficult to download City1M-full directly, because the original dataset contains more than one million images with a uniform resolution of 1920 x1080, we also provide a simple version, City1M-lite. 
+![图片](https://user-images.githubusercontent.com/16618172/159503913-e423377f-c2ca-48d7-b969-90286ef37019.png)
+
+
+City1M has cropped the group members in the image, and provides 16 images of the corresponding background (8 cameras with 'day' and 'night'). If you need complete image information, you can reconstruct it using tag files and background images.
+
 
 
 ### City1M-personmodel
+
 
 ## Dataset Applcation
 If you are interested in our dataset, please feel free to fill in the application form (PDF) and send it to email zhangq48@mail2.sysu.edu.cn, and we will reply to you as soon as possible.
