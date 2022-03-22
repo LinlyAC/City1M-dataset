@@ -40,14 +40,20 @@ Each line is split by ' ', the first item is the image name, and the following i
 
 ### City1M-lite
 Considering that it may be difficult to download City1M-full directly, because the original dataset contains more than one million images with a uniform resolution of 1920 x1080, we also provide a simple version, City1M-lite. 
+
+
+
+City1M has cropped the group members in the image, and provides 16 images of the corresponding background (8 cameras with 'day' and 'night'). 
 ![图片](https://user-images.githubusercontent.com/16618172/159503913-e423377f-c2ca-48d7-b969-90286ef37019.png)
 
+For example, 'Images_2/0009501_pCount2_cam1_0000001_day.jpg' in City1M-full is formatted as 
+'Image_2_crop/0009501/{0.jpg, 1.jpg}' in City1M-lite.
 
-City1M has cropped the group members in the image, and provides 16 images of the corresponding background (8 cameras with 'day' and 'night'). If you need complete image information, you can reconstruct it using tag files and background images.
-
+If you need the whole image with a low download cost, you can reconstruct it using corresponding txt files and background images.
 
 
 ### City1M-personmodel
+We also provided the pedestrian 3D models used in the City1M. We produced 45000 models for our dataset. Each pedestrian model is an FBX file.
 
 
 ## Dataset Applcation
