@@ -43,3 +43,7 @@ Each line is split by ' ', the first item is the image name, and the following i
 
 ### City1M-personmodel
 
+## Dataset Applcation
+If you are interested in our dataset, please feel free to fill in the application form (PDF) and send it to email zhangq48@mail2.sysu.edu.cn, and we will reply to you as soon as possible.
+
+
