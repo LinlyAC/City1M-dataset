@@ -39,7 +39,7 @@ Each line is split by ' ', the first item is the image name, and the following i
 * 1.5166 is depth between the camera and the first member.
 
 ### City1M-Lite
-Considering that it may be difficult to download City1M-full directly, because the original dataset contains more than one million images with a uniform resolution of 1920 x1080, we also provide a simple version, City1M-lite. 
+Considering that it may be difficult to download City1M-full directly, because the original dataset contains more than one million images with a uniform resolution of 1920 x1080 (~405G after unzip), we also provide a simple version, City1M-lite. 
 
 
 
