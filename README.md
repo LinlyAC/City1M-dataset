@@ -1,5 +1,5 @@
 # City1M-dataset
-First synthetic group re-identification dataset with over 100,000,000 images (CVPR2022).
+Large synthetic group re-identification dataset with over 1M images.
 
 ## Overview
 The proposed City1M is constructed by collecting images from 8 street cameras in a city scene, which contains 1.84M RGB images with a uniform resolution of 1920 x1080, 45,000 persons and 11,000 groups. Our dataset also includes day and night scenes.
@@ -11,9 +11,9 @@ The proposed City1M is constructed by collecting images from 8 street cameras in
 
 ## Dataset format
 
-We provide a full version of the City1M (named **City1M-full**), a simplified version (named **City1M-lite**), and related person models (named **City1M-personModels**).
+We provide a full version of the City1M (named **City1M-Full**), a simplified version (named **City1M-Lite**), and related person models (named **City1M-PersonModels**).
 
-### City1M-full
+### City1M-Full
 The City1M-full consists of 6 zip files, named Images_x.zip, x=2,3,4,5,6. For example, the format of image name in each zip file is:
 > Images_2/0009501_pCount2_cam1_0000001_day.jpg
 
@@ -38,7 +38,7 @@ Each line is split by ' ', the first item is the image name, and the following i
 * 1477.3156,230.6843,186.0616,346.3864 is the (x,y,h,w) of the first member.
 * 1.5166 is depth between the camera and the first member.
 
-### City1M-lite
+### City1M-Lite
 Considering that it may be difficult to download City1M-full directly, because the original dataset contains more than one million images with a uniform resolution of 1920 x1080, we also provide a simple version, City1M-lite. 
 
 
@@ -52,8 +52,9 @@ For example, 'Images_2/0009501_pCount2_cam1_0000001_day.jpg' in City1M-full is f
 If you need the whole image with a low download cost, you can reconstruct it using corresponding txt files and background images.
 
 
-### City1M-personmodel
+### City1M-PersonModels
 We also provided the pedestrian 3D models used in the City1M. We produced 45000 models for our dataset. Each pedestrian model is an FBX file.
+
 
 
 ## Dataset Applcation
