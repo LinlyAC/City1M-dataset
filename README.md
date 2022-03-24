@@ -53,7 +53,7 @@ If you need the whole image with a low download cost, you can reconstruct it usi
 
 
 ### City1M-PersonModels
-We also provided the pedestrian 3D models used in the City1M. We produced 45000 models for our dataset. Each pedestrian model is an FBX file, together with texture files in the `Texture directory`.
+We also provided the pedestrian 3D models used in the City1M. We produced 46,000 models for our dataset, in which 45,000 models with IDs between 1 and 45,000 are actually used to construct the dataset, and the rest 1,000 ones are for standby. Each pedestrian model is an FBX file, together with texture files in the `Texture directory`.
 
 
 
