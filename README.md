@@ -62,9 +62,11 @@ If you are interested in our dataset, please feel free to fill in the [applicati
 
 
 ## Comments
-If you need to obtain the 3D coordinates of members from the group images of other GReID datasets, we recommend that you use the following monocular depth estimation projects and algorithms. https://github.com/aim-uofa/AdelaiDepth/tree/main/LeReS
+If you only need to obtain the 3D coordinates of members from the group images of other GReID datasets, we recommend that you use the following monocular depth estimation projects and algorithms. https://github.com/aim-uofa/AdelaiDepth/tree/main/LeReS
 
 
+
+## BibTex
 ```
 @InProceedings{Zhang_2022_CVPR,
     author    = {Zhang, Quan and Dang, Kaiheng and Lai, Jian-Huang and Feng, Zhanxiang and Xie, Xiaohua},
