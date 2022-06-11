@@ -62,5 +62,13 @@ If you are interested in our dataset, please feel free to fill in the [applicati
 
 If our work is helpful to you, please kindly cite:
 
-_Quan Zhang, Kaiheng Dang, Jian-Huang Lai, Xiaohua Xie, Zhanxiang Feng. Modeling 3D Layout for Group Re-Identification. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022._
+
+@InProceedings{Zhang_2022_CVPR,
+    author    = {Zhang, Quan and Dang, Kaiheng and Lai, Jian-Huang and Feng, Zhanxiang and Xie, Xiaohua},
+    title     = {Modeling 3D Layout for Group Re-Identification},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {7512-7520}
+}
 
